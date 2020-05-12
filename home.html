@@ -3,7 +3,10 @@
 <head>
     <title>Restaurante Ureshii</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+
+    
 
 </head>
 <body>
@@ -23,26 +26,24 @@
         <section id="imagem-principal" >
 
             <figure>
-                <img src="_imagens/comida-japonesa-capa.jpg">
+                <img src="_imagens/rodizio-japones-2.jpg">
                 <figcaption>
                     <h1>Ureshii</h1>
                     <h2>Comida Japonesa</h2>
                     <p>Tradição e qualidade!</p>
                 </figcaption>
             </figure>
-
-            <!-- Colocar um background de pratos -->
         </section>
         
     </header>
         
     <section id="segunda-section">
-        <div>
+        <div class="texto-descritivo" >
             <h1>O mais frequentado da cidade</h1>
             <p>Bem-vindo</p>
             <p>Reconhecido por trazer as tradições da culinária japonesa desde 1952</p>
             <p>Premiado pelo maior festival de gastronomia japonesa, em um ambiente agradável e descontraído para você e sua família</p>
-            <button type="button" id="botaosobrenos">Mais sobre nós</button>
+            <button class="botao" type="button" id="botaosobrenos">Mais sobre nós</button>
         </div>
 
 
@@ -61,22 +62,53 @@
     
     <section id="cardapio">
         <h1>Nosso Cardápio</h1>
-        <p>Confira nossos pratos mais pedidos</p>
+        <p id="subtitulo-cardapio">Confira nossos pratos mais pedidos</p>
         
-        <ul>
-            <li>Prato 1</li>
-            <li>Prato 2</li>
-            <li>Prato 3</li>
-            <li>Prato 4</li>
+        <ul id="lista-cardapio">
+            <li>
+                <figure>
+                    <img src="_imagens/sushi-1.jpg">
+                    <figcaption>
+                        <h2>Prato 1</h2>
+                        <p>bla bla bla - R$20</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="_imagens/sushi-2.jpg">
+                    <figcaption>
+                        <h2>Prato 2</h2>
+                        <p>bla bla bla - R$20</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="_imagens/sushi-3.jpg">
+                    <figcaption>
+                        <h2>Prato 3</h2>
+                        <p>bla bla bla - R$20</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="_imagens/sushi-4.jpg">
+                    <figcaption>
+                        <h2>Prato 4</h2>
+                        <p>bla bla bla - R$20</p>
+                    </figcaption>
+                </figure>
+            </li>
         </ul>
         
-        <button type="button" id="botaocardapio">Cardápio completo</button>
+        <button class="botao botao-cardapio" type="button">Cardápio completo</button>
     </section>
     
     <section id="rodizio">
-        <div>
-        <!-- Aqui vai uma imagem -->
-        </div>
+        <img src="_imagens/rodizio.jpg">
+
         
         <div>
             <h1>Toda sexta-feira</h1>

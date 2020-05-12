@@ -20,6 +20,15 @@ p {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.botao {
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border-radius: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 110%
+}
+
 
 /* Edição do menu */
 
@@ -84,6 +93,7 @@ header section {
 
 #imagem-principal {
     margin-left: 0px;
+    margin-right: -62px;
 }
 
 header section figure {
@@ -118,4 +128,88 @@ header section figcaption h2 {
 header section figcaption p {
     font-size: 18px;
     text-shadow: 2px 2px black;
+}
+
+
+/* Conteúdo - primeira seção */
+
+#segunda-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.texto-descritivo {
+    width: 320px;
+    text-align: center;
+    position: relative;
+}
+
+/* cardapio - segunda seção */
+
+#cardapio {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#cardapio h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#subtitulo-cardapio {
+    text-align: center;
+    font-size: 20px;
+}
+
+#lista-cardapio {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#lista-cardapio figure {
+    border: 1px solid black;
+    text-align: right;
+}
+
+#lista-cardapio figcaption {
+    padding-right: 50%;
+}
+
+.botao-cardapio {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+/* secão - Rodízio */
+
+#rodizio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#rodizio div {
+    width: 500px;
+    margin: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 30px;
 }
